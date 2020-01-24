@@ -1,0 +1,300 @@
+/* Menu Icons & Placement - removing icons from any content that is not a document link or walk-through.  Search results will exclude walk-throughs and show only support content in WalkMe, then web results. */
+
+#walkme-menu .walkme-deployable.walkme-activatable.walkme-search-google .walkme-deployable-icon:before {
+color: transparent !important;
+}
+
+#walkme-menu .walkme-search-google .walkme-deployable-icon {background: url("https://supportcontent.ibm.com/support/pages/sites/default/files/inline-files/$FILE/blue%20bee%2020.png")  !important;
+background-repeat: no-repeat !important;
+background-position: center !important;
+padding-top: 40px !important;
+}
+#walkme-menu .walkme-article .walkme-deployable-icon:before {
+	color: #FFFFFF !important;
+}
+
+#walkme-menu .walkme-article {
+	margin-left: 0px !important;
+	margin-bottom: 2px !important;
+}
+#walkme-menu .walkme-video .walkme-deployable-icon {
+	display: none !important;
+}
+#walkme-menu .walkme-video {
+	margin-left: 8px !important;
+	margin-bottom: 2px !important;
+}
+#walkme-menu .walkme-shuttle .walkme-deployable-icon {
+display: none !important;
+}
+#walkme-menu .walkme-shuttle {
+	margin-left: 8px !important;
+	margin-bottom: 2px !important;
+}
+#walkme-menu .walkme-flow .walkme-deployable-icon {
+	color: #ffffff !important;
+}
+#walkme-menu .walkme-flow {
+	margin-bottom: 2px !important;
+}
+#walkme-menu.walkme-penguin .walkme-search-results-list .walkme-flow {
+	display: none !important;
+}
+#walkme-menu.walkme-penguin .walkme-search-box-button {
+	display: none !important;
+}
+
+
+/*Icon only displays in search results - Currently Inactive
+#walkme-menu.walkme-penguin .walkme-search-results-list .walkme-article .walkme-deployable-icon:before {
+  content: "" !important;
+	position: absolute !important;
+	background: url("https://supportcontent.ibm.com/support/pages/sites/default/files/inline-files/$FILE/Document20.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+	width: 20px !important;
+	height: 20px !important;
+}
+#walkme-menu.walkme-penguin .walkme-search-results-list .walkme-video:before {
+  content: "" !important;
+	background: url("https://supportcontent.ibm.com/support/pages/sites/default/files/inline-files/$FILE/Video20.png") !important;
+	background-repeat: no-repeat !important;
+  background-position: center !important;
+  width: 20px !important;
+  height: 20px !important;
+}*/
+
+/* Menu & Minimize Icon Placement */
+#walkme-menu.walkme-penguin .walkme-main {
+margin-top: 50px !important;
+}
+#walkme-menu.walkme-penguin .walkme-minimize {
+	margin-top: 50px !important;
+}
+
+
+/** custom css for UI **/
+div.walkme-custom-balloon-close-button {
+  font-size: 24px !important;
+}
+
+div.walkme-custom-balloon-title{
+  margin: 12px 47px 20px 20px !important;
+}
+
+div.walkme-menu.walkme-penguin.walkme-theme-black-blue.walkme-direction-ltr .walkme-main {
+  border-left: none !important;
+}
+
+div.walkme-menu.walkme-penguin.walkme-theme-black-blue .walkme-main {
+  background: #262626 !important;
+}
+
+div.walkme-menu.walkme-penguin.walkme-splash .walkme-main {
+  border-radius: 1px !important;
+}
+
+div.walkme-menu.walkme-penguin .walkme-main {
+  border-width: 1px !important;
+  opacity: 1 !important;
+  position: relative !important;
+  z-index: 0 !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  overflow: hidden !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+*.walkme-menu.walkme-penguin {
+  font-family: IBM Plex Sans,Helvetica Neue,Arial,sans-serif;
+}
+
+div.walkme-menu.walkme-penguin.walkme-theme-black-blue .walkme-search-box {
+  color: #6F6F6F !important;
+  border: 1px solid !important;
+  border-style: none none solid none !important;
+  border-color: #8D8D8D !important;
+  background: #393939 !important;
+}
+
+.walkme-menu.walkme-penguin.walkme-direction-ltr .walkme-search-box {
+  padding-left: 10px !important;
+}
+
+div.walkme-menu.walkme-penguin .walkme-search-box-container {
+  margin: 8px 10px !important;
+}
+
+div.walkme-menu.walkme-penguin .walkme-search-box, 
+div.walkme-menu.walkme-penguin .walkme-activatable>.walkme-deployable-row>.walkme-text .walkme-name, div.walkme-menu.walkme-penguin * .walkme-activatable>.walkme-deployable-row>.walkme-text .walkme-name {
+  font-family: IBM Plex Sans,Helvetica Neue,Arial,sans-serif !important;
+  margin-top: 0px !important;
+}
+
+div.walkme-menu.walkme-penguin.walkme-theme-black-blue .walkme-search-box-button {
+  background: #0F62FE !important;
+  border-radius: 0px !important
+}
+
+div.walkme-menu.walkme-penguin.walkme-theme-black-blue .walkme-deployable.walkme-activatable.walkme-flow .walkme-deployable-icon, .walkme-menu.walkme-penguin.walkme-theme-black-blue .walkme-activatable.walkme-activatable.walkme-flow .walkme-deployable-icon, div.walkme-menu.walkme-penguin.walkme-theme-black-blue .walkme-deployable .walkme-name, .walkme-menu.walkme-penguin.walkme-theme-black-blue .walkme-activatable .walkme-name{
+   color: #f4f4f4 !important;
+}
+
+div.walkme-menu.walkme-penguin .walkme-search-box-button, .walkme-menu.walkme-penguin * .walkme-search-box-button{
+     width: 32px !important;
+    height: 32px !important;
+}
+
+div.walkme-menu.walkme-penguin.walkme-direction-ltr .walkme-search-box-button {
+  float: left !important;
+  display: block !important;
+  margin: 0px 0px 0px 10px !important;
+}
+
+div.walkme-menu.walkme-penguin.walkme-theme-black-blue .walkme-search-box-button .walkme-search-box-button-image {
+  color: #f4f4f4 !important;
+}
+
+div.walkme-menu.walkme-penguin .walkme-search-box-button .walkme-search-box-button-image {
+  margin-top: 8px !important;
+  margin-left: 8px !important;
+  font-size: 16px !important;
+}
+
+div.walkme-menu.walkme-penguin.walkme-theme-black-blue .walkme-deployables-list {
+  border-color: #262626 !important;
+  background: #262626 !important;
+}
+
+div.walkme-menu.walkme-penguin.walkme-theme-black-blue .walkme-activatable, .walkme-custom-balloon-top-div{
+  background: none !important;
+    background-color: none !important;
+    border-bottom: none !important;
+}
+
+div.walkme-menu.walkme-penguin .walkme-activatable .walkme-name, div.walkme-menu.walkme-penguin * .walkme-activatable .walkme-name {
+font-weight: 400 !important;
+font-size: 14px;
+}
+
+/* balloon css */
+.walkme-custom-balloon-title {
+  font-size: 20px !important;
+  text-align: left !important;
+  margin: 12px 47px 20px 20px !important;
+}
+
+.walkme-custom-balloon-content {
+  font-size: 14px !important;
+  padding-bottom: 10px !important;
+}
+
+.walkme-custom-balloon-content a {
+color: #6ea6ff !important;
+}
+
+div.walkme-custom-balloon-mid-div {
+  box-shadow: rgba(42, 89, 200, 0.25) 0px 0px 5px 3px !important;
+  border: 1px solid !important;
+  border-color: #0F62FE !important;
+}
+
+.walkme-custom-balloon-close-button {
+  font-size: 24px !important;
+}
+
+.walkme-custom-balloon-bottom-div {
+  background-color: #262626 !important;
+}
+
+.walkme-custom-balloon-inner-div {
+  background-color: #262626 !important;
+  padding: 4px !important;
+  border: none !important;
+}
+
+.walkme-custom-balloon-separator {
+  display: none !important;
+}
+
+.walkme-custom-balloon-button-text, span.walkme-custom-balloon-button-text {
+  color: #FFFFFF !important;
+  background-color: #fff0 !important;
+}
+
+.walkme-custom-balloon-content, .walkme-custom-balloon-content span, .walkme-custom-balloon-content div{
+  color: #C6C6C6 !important;
+  font-size: 14px !important;
+}
+
+
+.walkme-custom-balloon-start-button,
+.walkme-action-start,
+div.walkme-custom-balloon-button .walkme-custom-balloon-normal-button .walkme-custom-balloon-start-button .walkme-action-start .walkme-click-and-hover,
+.walkme-custom-balloon-next-button
+{
+  background-color: #0F62FE !important;
+  border: 1px solid !important;
+  border-color: #0F62FE !important;
+  color: #FFFFFF !important;
+}
+
+
+.walkme-custom-balloon-start-button:hover,
+.walkme-action-start:hover,
+div.walkme-custom-balloon-button .walkme-custom-balloon-normal-button .walkme-custom-balloon-start-button .walkme-action-start .walkme-click-and-hover:hover,
+.walkme-custom-balloon-next-button:hover {
+  background: #0353e9 !important;
+}
+
+.walkme-custom-balloon-cancel-button,
+.walkme-action-cancel,
+.walkme-custom-balloon-button .walkme-custom-balloon-weak-button .walkme-custom-balloon-cancel-button .walkme-action-cancel .walkme-click-and-hover,
+.walkme-custom-balloon-back-button {
+  border: 1px solid !important;
+  border-color: #FFFFFF !important;
+  background-color: #262626 !important;
+}
+
+.walkme-custom-balloon-cancel-button:hover,
+.walkme-action-cancel:hover,
+.walkme-custom-balloon-back-button .walkme-custom-balloon-button-text:hover {
+  color: #161616 !important;
+}
+
+.walkme-custom-balloon-button .walkme-custom-balloon-weak-button .walkme-custom-balloon-cancel-button .walkme-action-cancel .walkme-click-and-hover:hover,
+.walkme-custom-balloon-back-button:hover {
+  background: #F4F4F4 !important;
+  color: #161616 !important;
+}
+
+
+#walkme-popup-background, .wm-insideouter-container .walkme-custom-insideouter .walkme-to-remove .SkipThisFixedPosition{
+  background: #161616 !important;
+  opacity: 0.5 !important;
+  z-index: 0 !important;
+}
+
+div.walkme-custom-balloon-title span{
+	color: #ffffff !important;
+}
+
+div.walkme-custom-balloon-outer-div,
+div.walkme-custom-balloon-arrow .walkme-custom-balloon-arrow-right .walkme-custom-balloon-arrow-outer .walkme-custom-balloon-arrow-outer-right  {
+	z-index: 2147483630 !important;
+}
+
+div.walkme-menu.walkme-penguin.walkme-theme-black-blue .walkme-deployable.walkme-category>.walkme-deployable-row>.walkme-deployable-icon,
+div.walkme-menu.walkme-penguin.walkme-theme-black-blue .walkme-deployable.walkme-category.walkme-opened>.walkme-deployable-row>.walkme-deployable-icon{
+	background: none !important;
+	color: #c6c6c6 !important;
+}
+
+div.walkme-menu.walkme-penguin .walkme-activatable .walkme-name, 
+div.walkme-menu.walkme-penguin .walkme-category .walkme-name,
+div.walkme-menu.walkme-penguin * .walkme-activatable .walkme-name, 
+div.walkme-menu.walkme-penguin * .walkme-category .walkme-name {
+	padding-bottom: 4px !important;
+}
